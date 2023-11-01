@@ -16,7 +16,8 @@
         <input type="text" name="email">
         <input type="password" name="senha" id="">
         <button type="submit">Entrar</button>
-        <a href="validarLogin.php">Esqueceu a senha?</a>
+        <a href="validarLogin.php">Esqueceu a senha?</a><br>
+        <a href="cadastro.php">Cadastre-se</a>
     </div>
 </body>
 
