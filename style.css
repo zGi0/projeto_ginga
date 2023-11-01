@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* escondendo partes posteriores */
+body
+{
+    & #box-1{display: block;}
+    & #box-2,#box-3,#box-4,#box-5,#box-6,#box-7,#box-8,#box-9,#box-10,#box-11,#box-12,#box-13,#box-14,#box-15,#box-16,#box-17,#box-18,#box-19,#box-20,#box-21,#box-22,#box-23,#box-24 {display: none;}
+}
+
+body
+{
+    background-color: #A5FFAC;
+    margin: 12vh 0;
+    text-align: center;
+}
+
+#botao_passar,
+#botao_voltar
+{
+    position: fixed;
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
+
+#botao_passar
+{
+    right: 5px;
+}
+
+#botao_voltar
+{
+    left: 5px;
+}
+
+h1
+{
+    margin-bottom: 5vh;
+}
+
+p
+{
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media only screen and (max-width: 700px)
+{
+    p
+    {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    #botao_passar,
+    #botao_voltar
+    {
+        border-radius: 25%;
+        top: 75%;
+    }
+}
