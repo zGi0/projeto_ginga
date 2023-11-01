@@ -1,5 +1,6 @@
 const botao_passar = document.getElementById("botao_passar");
 const botao_voltar = document.getElementById("botao_voltar");
+const botao_finalizar = document.getElementById("finalizar");
 var index_box = 1;
 var atual_html = document.getElementById("box-"+index_box);
 
@@ -18,9 +19,11 @@ function mudar_pagina(direcao){
     }else{
         botao_voltar.disabled = false;
     }
-    if (index_box == 22){
+    if (index_box == 24){
         botao_passar.disabled = true;
+        botao_finalizar.style.display = "block";
     }else{
         botao_passar.disabled = false;
+        botao_finalizar.style.display = "none";
     }
 }
