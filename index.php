@@ -221,7 +221,7 @@
         <div id="box-24">
             <p>Sua pontuação até aqui foi</p>
         </div>
-        <button type="submit">Finalizar</button>
+        <button type="submit" id="finalizar">Finalizar</button>
     </form>
     <button id="botao_voltar" onclick="mudar_pagina(-1)" disabled> < </button>
     <button id="botao_passar" onclick="mudar_pagina(1)"> > </button>
